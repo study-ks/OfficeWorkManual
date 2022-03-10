@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# .shファイルは、常に開業コードをLFに保つようにする。
+* .sh text eol=lf
